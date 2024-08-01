@@ -1,0 +1,58 @@
+body{
+  font-family: "Poppins";
+}
+
+:root{
+  --bg-color-black: black;
+  --main-color: #DABC94;
+}
+
+/* || HERO */
+.hero{
+  height: 100vh;
+  background-color: var(--bg-color-black);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Hero Container */
+.hero-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* Hero List */
+.hero-list{
+  flex: 1;
+}
+
+/* Hero Title */
+.hero-title{
+  color: var(--main-color);
+  font-weight: 800; 
+  font-size: clamp(2rem, 5vw, 6vw);
+  margin-bottom: 2rem;
+}
+
+/* Hero Description */
+.hero-description{
+  color: rgb(145, 145, 145);
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/* Hero GIF */
+.hero-gif{
+  width: 50vw;
+  height: 50vw;
+  margin-inline: 2rem;
+}
+
+/* Hero Title and Description Together */
+.hero-title, 
+.hero-description{
+  margin-inline: 2rem;
+}
