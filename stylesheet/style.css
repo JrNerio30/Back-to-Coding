@@ -5,6 +5,7 @@ body{
 :root{
   --bg-color-black: black;
   --main-color: #DABC94;
+  --color-grey: rgb(145, 145, 145);
 }
 
 /* || HERO */
@@ -20,6 +21,7 @@ body{
 .hero-container{
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
@@ -39,9 +41,9 @@ body{
 
 /* Hero Description */
 .hero-description{
-  color: rgb(145, 145, 145);
-  font-size: 1.5rem;
-  line-height: 2rem;
+  color: var(--color-grey);
+  font-size: clamp(0.75rem, 1vw, 1.5vw);
+  line-height: 1rem;
 }
 
 /* Hero GIF */
@@ -55,4 +57,32 @@ body{
 .hero-title, 
 .hero-description{
   margin-inline: 2rem;
+}
+
+/* // First Content */
+.first-content{
+  height: 100vh;
+  background-color: var(--bg-color-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* First Content Title */
+.first-content-title{
+  color: var(--main-color);
+  font-size: clamp(2rem, 5vw, 6vw);
+  font-weight: 700;
+  align-self: baseline;
+  margin-inline: 10vw;
+}
+
+/* First Content Title */
+.first-content-description{
+  color: var(--color-grey);
+  font-size: clamp(0.75rem, 1vw, 1.5vw);
+  line-height: 1rem;
+  margin-inline: 10vw;
 }
