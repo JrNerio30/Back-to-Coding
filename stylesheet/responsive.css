@@ -1,17 +1,47 @@
 /* Media Quarry: Tablets and smaller laptops */
 @media screen and (min-width: 768px) {
-     /* Hero GIF */
-     .hero-gif{
-      margin-inline: 0rem; 
-     }
+  /* Hero GIF */
+  .hero-gif {
+    margin-inline: 0rem;
+  }
+
+    /* First Content Title */
+  .first-content-title{
+    align-self: center;
+  }
+
+    /* First Content Title */
+    .first-content-description {
+      margin-inline: 25vw;
+    }
 }
 
 /* Media Quarry: Large Desctops */
 @media screen and (min-width: 1200px) {
 
-  /* Hero GIF */
-   .hero-gif{
-    margin-inline: 0rem; 
-   }
+  /* Hero Container */
+  .hero-container{
+    gap: 0rem;
+  }
 
+  /* Hero Description */
+  .hero-description{
+    line-height: 2rem;    
+  }
+
+  /* Hero GIF */
+  .hero-gif {
+    margin-inline: 0rem;
+  }
+
+  /* First Content Title */
+  .first-content-title{
+    align-self: center;
+  }
+
+  /* First Content Title */
+  .first-content-description {
+    line-height: 2rem;
+    margin-inline: 30vw;
+  }
 }
